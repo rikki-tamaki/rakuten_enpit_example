@@ -1,10 +1,11 @@
 language: ruby
 rvm:
-- 2.1.2
+- 2.2.5
 deploy:
   provider: heroku
   api_key:
-    secure: T/rkhibwg2EBQhDVff/E04HWIJVivfR6vNq7aGQUq2cMizDQgi4657ykyQxljHmyrdRFdY7DuPc76qj4Zo+wTxH9OiZPrDHaxacxn8Kd6xPH4asZDsL9oiFf8dEVWS2XOIPwDHLykHr4LIcxoiepqlpGPQ1UREi/DynUJ6umgaY=
-  app: mighty-river-7140
+    secure: hDgSzR0nMoFjgBbicQf6mITv17y6OCRL+CHXcWSt5Hf5hsnmvHMoeMZ3sDrRfNiNBeS0OpnaTN5ZJS/3PX1wJWa2QT+0NiRjIjfI/u7PnikwIsBjNjLhDYRsuwnTv+PpX4g6ujAK/et9K31Tvywk7gpYaczIlepL1cVRHws04Z1kt5O0PqlvqjfR546cJ38sTkaMZp1kcIPbyW0fusFDmRn5u+Ied9qRCLHbLQ2UXhp47iJY9647UKxiYUrBEXkHKmEkLlmca4uOk3kE2uBaEbg+/n8U3P3uqcQseOA4iZ7uDVbs3Co7gU867WTH0MpkGW8GetP6uYcZ904Y9vuBGkqk+BPEKhiUgwIBmI3u7RH4omL5BLTQIndVfM1qh/+ssExlVRNSy6s7mqbvpq9iIOCqB6K/7hnF84OgOGereYg+BYTqvpZkCYE635spPDqfI0BQoags0a5h1w5gesjl91tLIJCAvtUn5IqZ2fpKmWq3OR/VsWEpKKqhS14S5iyxyNp9AIn5WTuEf6R3FLkS2f0LUXebOak37+G0komN/kQQL0fRegNkqKzkOcNujfo3O9ScPczvaCzmPivofdXgOOKUbwYfyCmEdoOSX/PLS8lnwFtDm1lsC0XvHqCUk4BM5z9PQn1msoLxgZjgBVTq6fWijAGHb2FKHcOAodA4I+w=
+  app: thawing-waters-99199
   on:
-    repo: ryuichiueda/rakuten_enpit_example
+    repo: rikki-tamaki/rakuten_enpit_example
+    branch: new_fewture
